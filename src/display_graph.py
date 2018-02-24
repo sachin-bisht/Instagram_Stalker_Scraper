@@ -6,6 +6,7 @@ import matplotlib.pyplot as plt
 
 def plotBargraph(shortcodes, handle):
   likes = []
+
   for like in shortcodes:
     likes.append(like['likes'])
 
