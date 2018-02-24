@@ -20,6 +20,7 @@ def downloadPost(shortcodes, handle):
       if shortcodes[i]['typename'] != 'GraphSidecar':
         name = './insta_img'+handle + '/post' + str(len(shortcodes)-i) + '.jpg'
         wget.download(shortcodes[i]['display-url'], name)
+		
       else:
         page = requests.get(main_url + '/p/' + shortcodes[i]['shortcode'] + '/?__a=1').json()
         for j in range(len(page['graphql']['shortcode_media']['edge_sidecar_to_children']['edges'])):
