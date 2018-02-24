@@ -12,6 +12,7 @@ def validate_profile(handle):
 		return True
 
 	page = page.json()
+	
 	if page['user']['is_private']:
 		print ("This Account is Private")
 		return True
