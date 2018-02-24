@@ -1,9 +1,5 @@
 import requests
 from lxml import html
-
-main_url = 'https://www.instagram.com'
-scroll_link = '/graphql/query/?'
-
 # Gets the query_id of the profile
 # which helps afterwards in infinte scrolling
 
