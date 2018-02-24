@@ -18,7 +18,6 @@ def infinteScrolling(query_hash, id, after):
     if(page.status_code == 200):
       page = page.json()
       return page
-    
     elif(page.status_code == 429):
       time.sleep(var)
       var += 10
