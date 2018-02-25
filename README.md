@@ -43,7 +43,7 @@ _json package :_
 
 > in-built
 
-_matplotlib pakage :_
+_matplotlib package :_
 
 > $ sudo pip3 install matplotlib
 
