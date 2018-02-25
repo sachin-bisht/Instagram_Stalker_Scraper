@@ -41,7 +41,7 @@ _lxml package :_
 
 _json package :_
 
-> $ pip3 install json
+> in-built
 
 _matplotlib pakage :_
 
