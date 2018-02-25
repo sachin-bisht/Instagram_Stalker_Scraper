@@ -50,7 +50,3 @@ _matplotlib pakage :_
 _wget package :_
 
 > $ sudo pip3 install wget
-
-_os package :_
-
-> $ pip3 install os
