@@ -1,6 +1,8 @@
 # Instagram_stalker-scrapper-
 Fetch data of any public Instagram profile
 
+### This program download all the post of instagram profile(PUBLIC) and then shows the bar graph of likes of each post _(from older to newer post)_
+
 First of all, I want to say that this project helps me learn a lot of things about web scraping and many python libraries (some of them aren't used)
 
 Now what this does is, it downloads all the posts(including videos) of any PUBLIC instagram account and save it in your current working directory.
