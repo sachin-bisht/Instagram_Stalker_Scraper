@@ -39,10 +39,6 @@ _lxml package :_
 > $ sudo apt-get install libxml2-dev libxslt1-dev python-dev
 > $ pip3 install lxml
 
-_json package :_
-
-> in-built
-
 _matplotlib package :_
 
 > $ sudo pip3 install matplotlib
