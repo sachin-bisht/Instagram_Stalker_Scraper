@@ -22,3 +22,35 @@ And if you are intersted in plotting graph in python:
 Matplotlib - https://matplotlib.org/tutorials/introductory/sample_plots.html
 
 Good Luck!
+
+# Prerequisite
+_Python 3_
+
+_pip(Python Package Index) :_
+
+> $ sudo apt-get install python3-pip
+
+_requests package :_
+
+> $ pip3 install requests
+
+_lxml package :_
+
+> $ sudo apt-get install libxml2-dev libxslt1-dev python-dev
+> $ pip3 install lxml
+
+_json package :_
+
+> $ pip3 install json
+
+_matplotlib pakage :_
+
+> $ pip3 install matplotlib
+
+_wget package :_
+
+> $ pip3 install wget
+
+_os package :_
+
+> $ pip3 install os
