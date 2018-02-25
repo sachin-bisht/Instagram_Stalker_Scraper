@@ -23,7 +23,7 @@ Matplotlib - https://matplotlib.org/tutorials/introductory/sample_plots.html
 
 Good Luck!
 
-# Prerequisite
+## Prerequisite :
 _Python 3_
 
 _pip(Python Package Index) :_
