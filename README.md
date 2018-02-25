@@ -32,7 +32,7 @@ _pip(Python Package Index) :_
 
 _requests package :_
 
-> $ pip3 install requests
+> $ sudo pip3 install requests
 
 _lxml package :_
 
@@ -45,11 +45,11 @@ _json package :_
 
 _matplotlib pakage :_
 
-> $ pip3 install matplotlib
+> $ sudo pip3 install matplotlib
 
 _wget package :_
 
-> $ pip3 install wget
+> $ sudo pip3 install wget
 
 _os package :_
 
