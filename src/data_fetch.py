@@ -61,8 +61,8 @@ def getPostInfo(handle):
   scroll_link = '/graphql/query/?'
 
   profileP_json = requests.get(main_url + handle + '/?__a=1').json()
-  profile_id = profileP_json['user']['id']
-  end_cursor = profileP_json['user']['media']['page_info']['end_cursor']
+  profile_id = profileP_json['graphql']['user']['id']
+  end_cursor = profileP_json['graphql']['user']['edge_media_collections']['page_info']['end_cursor']
   profile_query_id = QId.getQueryId(main_url+handle)
   
   post_info = []
@@ -84,9 +84,11 @@ def getPostInfo(handle):
     info['is-video'] = is_video
     info['typename'] = typename
     shortcodes.append(info)
-
+  
+  temp_shortcodes = []
+  
   #this function will gather all the shortcodes that comes after the scrolling
-  temp_shortcodes = getShortcodes(profile_query_id, profile_id, end_cursor)
-
-  shortcodes += temp_shortcodes
+  if profileP_json['graphql']['user']['edge_media_collections']['page_info']['has_next_page']:
+    temp_shortcodes = getShortcodes(profile_query_id, profile_id, end_cursor)
+    shortcodes += temp_shortcodes
   return shortcodes
