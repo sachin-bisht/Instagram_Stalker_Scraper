@@ -13,7 +13,7 @@ def validate_profile(handle):
 
 	page = page.json()
 	
-	if page['user']['is_private']:
+	if page['graphql']['user']['is_private']:
 		print ("This Account is Private")
 		return True
 	else:
