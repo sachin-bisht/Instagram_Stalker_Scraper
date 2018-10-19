@@ -25,7 +25,7 @@ _Matplotlib_ - https://matplotlib.org/tutorials/introductory/sample_plots.html
 
 Good Luck!
 
-## Prerequisite :
+## Prerequisite:
 _Python 3_
 
 _pip(Python Package Index) :_
@@ -49,3 +49,6 @@ _matplotlib package :_
 _wget package :_
 
 > $ sudo pip3 install wget
+
+## How to Run:
+Run driver.py
