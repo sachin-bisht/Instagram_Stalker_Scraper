@@ -1,12 +1,12 @@
 # Instagram_stalker-scrapper-
 Fetch data from any public Instagram profile
 
-### This program download all the post of instagram profile(PUBLIC) and then shows the bar graph of likes of each post _(from older to newer post)_
+### This program download all the post of instagram profile(PUBLIC) and then shows the bar graph of likes of each post _(from older to newer posts)_
 
 First of all, I want to say that this project helped me learn a lot of things about web scraping and many python libraries (some of them aren't used)
 
-Now what this does is, it downloads all the posts(including videos) of any PUBLIC instagram account and save it in your current working directory.
-And it also shows the bar graph (likes of each post) from older to newer posts.
+Now what this does is, it downloads all the posts(including videos) of any public Instagram account and save it in your current working directory.
+And it also shows the bar graph (likes on every post) from older to newer posts.
 
 When I started this project, I googled a lot of things(don't remember) and visited a lot of blogs. Thanks, everyone :)
 But there is one blog that tells exactly how to scrape the AJAX part or infinite scrolling of Instagram account.
@@ -51,4 +51,4 @@ _wget package :_
 > $ sudo pip3 install wget
 
 ## How to Run:
-Run driver.py
+Run file driver.py in SRC folder
